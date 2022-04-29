@@ -39,4 +39,4 @@ grabData().then(data => {
 			</div>
 `
     })
-})
+}) 
