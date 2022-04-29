@@ -41,6 +41,10 @@ section.grid {
     grid-gap: 64px 32px;
 }
 
+div.item img {
+    max-width: 75%;
+}
+
 div.title {
     display: flex;
     justify-content: space-between;
