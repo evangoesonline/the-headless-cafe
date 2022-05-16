@@ -32,6 +32,7 @@ h1 {
     line-height: 1;
     border-bottom: 1px solid #c2beb5;
     text-transform: uppercase;
+    text-align: center;
 }
 
 section.grid {
@@ -59,7 +60,18 @@ footer {
 
 @media screen and (max-width: 480px) {
     section.grid {
-        grid-template-columns: auto;
+        grid-template-columns: 100%;
         gap: 5px;
     }
+
+    h1 {
+        font-size: 62px;
+        line-height: .8;
+    }
+
+    section.chicken {
+        display: none;
+    }
+
+
 }
